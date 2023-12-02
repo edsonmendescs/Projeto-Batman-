@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;   
+    background-color: black;
+    list-style: none;
+    text-decoration: none
+}
+#logo {
+    height: auto;
+    width: 150px;    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
+    font-family: 'kdam Tmor Pro', sams-serif;
+}
+li:hover {
+    color: #D21617;
+}
+.geral {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#banner-6 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-top: 50px;
+}
+.name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: #ff0000;
+}
+.title {
+    font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color:white;
+}
+#ben {    
+    width: 300px;    
+    border-radius: 50%;
+    cursor: pointer; 
+    transition: 1s;
+}
+#ben :hover {
+    transform: scale(1.02);
+}
+#comentario-1 {
+    margin-left: 100px;
+}
+.bat {
+    margin-left: 60px;
+}
+#relato {
+    color: white;
+    font-size: 11px;
+    font-weight:bold;
+    margin-top: 5px;
+    
+}
+
+#ney {    
+    width: 320px;    
+    border-radius: 50%;    
+    cursor: pointer;    
+}
+#comentario-2 {
+    margin-left: 50px;
+}
+.fut {
+    margin-left: 60px;
+}
+#jogar {
+    color: white;
+    font-size: 11px;
+    font-weight:bold;
+    margin-top: 20px;    
+}
+#rob {    
+    width: 270px;    
+    border-radius: 48%;    
+    cursor: pointer;
+}
+#comentario-3 {
+    margin-left: 100px;
+}
+.edit {
+    margin-left: 20px;
+}
+#agir {
+    color: white;
+    font-size: 11px;
+    font-weight:bold;
+    margin-top: 20px;    
+}
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#logo-a {
+    width: 200px;
+    height: 150px;    
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+    #banner-6 {
+        
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+    .comentario-1 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .comentario-2 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .comentario-3 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    #ben {
+        width: 100%;
+    }
+    #ney {
+        width: 100%;
+    }
+    #rob {
+        width: 100%;
+    }
+    #comentario-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #comentario-2 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #comentario-3 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    
+    .bat {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fut {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .edit {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #relato {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #jogar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #agir {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description {
+        width: 100%;
+    }
+        
+}

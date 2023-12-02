@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+   
+    list-style: none;
+    text-decoration: none
+}
+#logo {
+    height: auto;
+    width: 150px;    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
+    font-family: 'kdam Tmor Pro', sams-serif;
+}
+li:hover {
+    color: #D21617;
+}
+
+#banner-6 {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url(Midias/imagem-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+h3 {
+    color: white; 
+    margin-left: 20px;
+    font-size: 20px;     
+
+}
+
+form {
+    width: 70%;
+    margin-left: 50px;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;   
+    font-family: 'kdam Tmor Pro', sams-serif;     
+}
+input {
+    width: 200px;
+    height: 25px;
+    background-color: #D21617;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+textarea {
+    background-color: #D21617;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;    
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#final {
+    width: 100%;   
+    display: flex;
+    height: auto;
+    background-color: black;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+    #banner-6 {
+        background-position: 40%;
+    }   
+    
+    h3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    input {
+        width: 100%;
+        margin-top: 30px;
+    }
+    textarea {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+}
